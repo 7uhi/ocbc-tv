@@ -1,41 +1,8 @@
 {
-  "scrapedAt": "2026-07-22T01:29:54.655Z",
+  "scrapedAt": "2026-07-22T13:45:14.367Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-07-21",
-      "events": [
-        {
-          "title": "Discussion Meetings",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Saddleback chapter team meeting",
-          "room": "Conference Room",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "SIR Chapter Intro to Buddhism",
-          "room": "Gohonzon Room C",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-07-22",
       "events": [
@@ -455,6 +422,32 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "SIR Chapter Intro to Buddhism",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         }
       ]
     }
