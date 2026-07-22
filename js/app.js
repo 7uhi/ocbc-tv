@@ -32,6 +32,39 @@ function formatTime(t) {
   return `${m[1]}${min} ${m[3].toLowerCase() === 'p' ? 'PM' : 'AM'}`;
 }
 
+// "7p" / "6:30p" → minutes since midnight; null if unparseable
+function timeToMin(t) {
+  const m = /^(\d{1,2})(?::(\d{2}))?\s*([ap])/i.exec(t || '');
+  if (!m) return null;
+  let h = parseInt(m[1], 10) % 12;
+  if (m[3].toLowerCase() === 'p') h += 12;
+  return h * 60 + (m[2] ? parseInt(m[2], 10) : 0);
+}
+
+// current time of day in LA, in minutes since midnight
+function nowMinutesLA() {
+  const [h, m] = new Intl.DateTimeFormat('en-US', {
+    timeZone: TZ, hour12: false, hour: '2-digit', minute: '2-digit',
+  }).format(new Date()).split(':');
+  return parseInt(h, 10) % 24 * 60 + parseInt(m, 10);
+}
+
+// when the event ends, in minutes; unknown end assumes a 1-hour meeting
+function endMinutes(e) {
+  const end = e.timeRange ? timeToMin(e.timeRange.split('-')[1]) : null;
+  if (end !== null) return end;
+  const start = timeToMin(e.time);
+  return start !== null ? start + 60 : null;
+}
+
+// drop cards 30 minutes after the meeting ends (never in date previews,
+// so a previewed day always shows its full schedule)
+function isCurrent(e) {
+  if (DATE_OVERRIDE) return true;
+  const end = endMinutes(e);
+  return end === null || nowMinutesLA() < end + 30;
+}
+
 function formatRange(range, single) {
   if (range) {
     const parts = range.split('-');
@@ -108,6 +141,7 @@ function renderEvents() {
   setBusy(false);
 
   if (!day) {
+    renderedCount = -1;
     $('#today-allday').textContent = '';
     list.innerHTML = `
       <div class="no-events">
@@ -124,29 +158,26 @@ function renderEvents() {
   const allDayTitles = day.events.filter((e) => e.allDay).map((e) => e.title);
   $('#today-allday').textContent = allDayTitles.length ? ` - ${allDayTitles.join(', ')}` : '';
 
-  const timed = day.events.filter((e) => !e.allDay);
+  const allTimed = day.events.filter((e) => !e.allDay);
+  const timed = allTimed.filter(isCurrent);
+  renderedCount = timed.length;
   if (timed.length === 0) {
     list.innerHTML = `
       <div class="no-events">
         <div class="zen">☸</div>
-        <div>${allDayTitles.length
-          ? 'No scheduled meeting times today.'
-          : 'No events scheduled today.<br>Enjoy a peaceful visit!'}</div>
+        <div>${allTimed.length
+          ? 'That&rsquo;s all for today &mdash; see you next time!'
+          : allDayTitles.length
+            ? 'No scheduled meeting times today.'
+            : 'No events scheduled today.<br>Enjoy a peaceful visit!'}</div>
       </div>`;
   } else {
     // earliest to latest; same-time ties break by room:
     // Main, A, B, C, D, Conference, then anything unrecognized
-    const minutes = (t) => {
-      const m = /^(\d{1,2})(?::(\d{2}))?\s*([ap])/i.exec(t || '');
-      if (!m) return Infinity;
-      let h = parseInt(m[1], 10) % 12;
-      if (m[3].toLowerCase() === 'p') h += 12;
-      return h * 60 + (m[2] ? parseInt(m[2], 10) : 0);
-    };
     const roomRank = (e) =>
       ({ ' room-main': 1, ' room-a': 2, ' room-b': 3, ' room-c': 4, ' room-d': 5, ' room-conf': 6 }[roomClass(e.room)] ?? 7);
     const ordered = [...timed].sort((a, b) =>
-      minutes(a.time) - minutes(b.time)
+      (timeToMin(a.time) ?? Infinity) - (timeToMin(b.time) ?? Infinity)
       || roomRank(a) - roomRank(b)
       || a.title.localeCompare(b.title));
     setBusy(ordered.length > 8);
@@ -320,6 +351,13 @@ function esc(s) {
 }
 
 let renderedFor = laToday();
+let renderedCount = -1;
+
+// how many of today's timed events are currently displayable
+function currentCount() {
+  const day = dayFor(laToday());
+  return day ? day.events.filter((e) => !e.allDay && isCurrent(e)).length : -1;
+}
 
 function everySecond() {
   tickClock();
@@ -328,6 +366,8 @@ function everySecond() {
     renderedFor = now;
     renderEvents();
     loadQuote();
+  } else if (new Date().getSeconds() === 0 && currentCount() !== renderedCount) {
+    renderEvents();                   // a meeting ended 30+ minutes ago
   }
   // nightly full reload at ~3:30 AM to keep long-running TV browsers fresh
   const hm = new Intl.DateTimeFormat('en-US', {
