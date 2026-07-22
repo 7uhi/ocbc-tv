@@ -175,14 +175,25 @@ header {
   text-align: center;
 }
 
-.no-events img {
-  max-width: 78%;
-  max-height: 62%;
+/* the artwork takes whatever height remains after the message, never more */
+.no-events .art {
+  flex: 1 1 0;
   min-height: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-events .art img {
+  max-width: 82%;
+  max-height: 100%;
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 6px 24px rgb(60 40 10 / 0.18);
 }
+
+.no-events-msg { flex: 0 0 auto; padding-bottom: 0.6rem; }
 
 .events-note {
   flex: 0 0 auto;
