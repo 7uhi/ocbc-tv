@@ -134,6 +134,7 @@ header {
 }
 
 /* tab color-coding by room (matches the center's calendar colors) */
+.event-card.room-main { border-left-color: #9aa1a9; }
 .event-card.room-a { border-left-color: var(--orange); }
 .event-card.room-b { border-left-color: #f0b400; }
 .event-card.room-c { border-left-color: #7dcf74; }

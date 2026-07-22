@@ -79,9 +79,11 @@ async function loadEvents() {
   renderEvents();
 }
 
-// tab color class by room, matching the center's calendar color-coding
+// tab color class by room, matching the center's calendar color-coding;
+// timed events with no room listed are held in the Main Room
 function roomClass(room) {
   const r = (room || '').toLowerCase();
+  if (!r.trim() || /main room/.test(r)) return ' room-main';
   if (/gohonzon room a\b/.test(r)) return ' room-a';
   if (/gohonzon room b\b/.test(r)) return ' room-b';
   if (/gohonzon room c\b/.test(r)) return ' room-c';
@@ -134,7 +136,7 @@ function renderEvents() {
       return h * 60 + (m[2] ? parseInt(m[2], 10) : 0);
     };
     const roomRank = (e) =>
-      ({ ' room-a': 1, ' room-b': 2, ' room-c': 3, ' room-d': 4, ' room-conf': 5 }[roomClass(e.room)] ?? 6);
+      ({ ' room-main': 1, ' room-a': 2, ' room-b': 3, ' room-c': 4, ' room-d': 5, ' room-conf': 6 }[roomClass(e.room)] ?? 7);
     const ordered = [...day.events].sort((a, b) => {
       if (a.allDay !== b.allDay) return a.allDay ? -1 : 1;
       return minutes(a.time) - minutes(b.time)
@@ -143,14 +145,17 @@ function renderEvents() {
     });
     setBusy(ordered.length > 8);
     list.classList.toggle('two-col', ordered.length > 8);
-    list.innerHTML = ordered.map((e) => `
-      <div class="event-card${e.allDay ? ' all-day' : ''}${roomClass(e.room)}">
+    list.innerHTML = ordered.map((e) => {
+      const room = e.allDay ? '' : (e.room || 'Main Room');
+      return `
+      <div class="event-card${e.allDay ? ' all-day' : roomClass(room)}">
         <div class="event-time">${e.allDay ? 'All Day' : esc(formatRange(e.timeRange, e.time))}</div>
         <div class="event-body">
           <div class="event-title">${esc(e.title)}</div>
-          ${e.room ? `<div class="event-room">${esc(e.room)}</div>` : ''}
+          ${room ? `<div class="event-room">${esc(room)}</div>` : ''}
         </div>
-      </div>`).join('');
+      </div>`;
+    }).join('');
     fitEvents();
   }
 
