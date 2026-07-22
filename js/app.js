@@ -12,7 +12,14 @@ const WEEK_DAYS = 6;
 
 const $ = (sel) => document.querySelector(sel);
 
+// preview any day with ?date=YYYY-MM-DD (e.g. ?date=2026-07-26)
+const DATE_OVERRIDE = (() => {
+  const d = new URLSearchParams(location.search).get('date');
+  return d && /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : null;
+})();
+
 function laToday() {
+  if (DATE_OVERRIDE) return DATE_OVERRIDE;
   return new Intl.DateTimeFormat('en-CA', {
     timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit',
   }).format(new Date());
@@ -49,9 +56,13 @@ function tickClock() {
   $('#clock').textContent = new Intl.DateTimeFormat('en-US', {
     timeZone: TZ, hour: 'numeric', minute: '2-digit',
   }).format(now);
-  $('#date').textContent = new Intl.DateTimeFormat('en-US', {
-    timeZone: TZ, weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
-  }).format(now);
+  $('#date').textContent = DATE_OVERRIDE
+    ? new Intl.DateTimeFormat('en-US', {
+        timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
+      }).format(new Date(`${DATE_OVERRIDE}T12:00:00Z`)) + ' (preview)'
+    : new Intl.DateTimeFormat('en-US', {
+        timeZone: TZ, weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
+      }).format(now);
 }
 
 /* ---------- events ---------- */
