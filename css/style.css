@@ -164,17 +164,25 @@ header {
 
 .no-events {
   flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.6rem;
+  gap: 1.4rem;
   color: var(--ink-soft);
   font-size: 1.6rem;
   text-align: center;
 }
 
-.no-events .zen { font-size: 3.4rem; }
+.no-events img {
+  max-width: 78%;
+  max-height: 62%;
+  min-height: 0;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgb(60 40 10 / 0.18);
+}
 
 .events-note {
   flex: 0 0 auto;

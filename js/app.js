@@ -145,7 +145,7 @@ function renderEvents() {
     $('#today-allday').textContent = '';
     list.innerHTML = `
       <div class="no-events">
-        <div class="zen">☸</div>
+        <img src="assets/center.jpg" alt="">
         <div>Schedule is temporarily unavailable.<br>
         Please see the calendar at <strong>ocvictory.com/events</strong></div>
       </div>`;
@@ -164,7 +164,7 @@ function renderEvents() {
   if (timed.length === 0) {
     list.innerHTML = `
       <div class="no-events">
-        <div class="zen">☸</div>
+        <img src="assets/center.jpg" alt="">
         <div>${allTimed.length
           ? 'That&rsquo;s all for today &mdash; see you next time!'
           : allDayTitles.length
