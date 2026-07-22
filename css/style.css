@@ -140,7 +140,6 @@ header {
 .event-card.room-c { border-left-color: #7dcf74; }
 .event-card.room-d { border-left-color: #387bff; }
 .event-card.room-conf { border-left-color: #d0342c; }
-.event-card.all-day { border-left-color: #8a8177; }
 
 .event-time {
   flex: 0 0 7.5em;
@@ -150,7 +149,6 @@ header {
   font-variant-numeric: tabular-nums;
 }
 
-.event-card.all-day .event-time { color: #8a8177; font-size: 1.15em; }
 
 .event-body { min-width: 0; }
 .event-title { font-size: 1.45em; font-weight: 600; line-height: 1.2; }

@@ -108,6 +108,7 @@ function renderEvents() {
   setBusy(false);
 
   if (!day) {
+    $('#today-allday').textContent = '';
     list.innerHTML = `
       <div class="no-events">
         <div class="zen">☸</div>
@@ -119,15 +120,22 @@ function renderEvents() {
     return;
   }
 
-  if (day.events.length === 0) {
+  // all-day events live in the heading: "Today at the Center - <titles>"
+  const allDayTitles = day.events.filter((e) => e.allDay).map((e) => e.title);
+  $('#today-allday').textContent = allDayTitles.length ? ` - ${allDayTitles.join(', ')}` : '';
+
+  const timed = day.events.filter((e) => !e.allDay);
+  if (timed.length === 0) {
     list.innerHTML = `
       <div class="no-events">
         <div class="zen">☸</div>
-        <div>No events scheduled today.<br>Enjoy a peaceful visit!</div>
+        <div>${allDayTitles.length
+          ? 'No scheduled meeting times today.'
+          : 'No events scheduled today.<br>Enjoy a peaceful visit!'}</div>
       </div>`;
   } else {
-    // Today panel order: All Day first, then earliest to latest; events at the
-    // same time tie-break by room (A, B, C, D, Conference, then room-less)
+    // earliest to latest; same-time ties break by room:
+    // Main, A, B, C, D, Conference, then anything unrecognized
     const minutes = (t) => {
       const m = /^(\d{1,2})(?::(\d{2}))?\s*([ap])/i.exec(t || '');
       if (!m) return Infinity;
@@ -137,22 +145,20 @@ function renderEvents() {
     };
     const roomRank = (e) =>
       ({ ' room-main': 1, ' room-a': 2, ' room-b': 3, ' room-c': 4, ' room-d': 5, ' room-conf': 6 }[roomClass(e.room)] ?? 7);
-    const ordered = [...day.events].sort((a, b) => {
-      if (a.allDay !== b.allDay) return a.allDay ? -1 : 1;
-      return minutes(a.time) - minutes(b.time)
-        || roomRank(a) - roomRank(b)
-        || a.title.localeCompare(b.title);
-    });
+    const ordered = [...timed].sort((a, b) =>
+      minutes(a.time) - minutes(b.time)
+      || roomRank(a) - roomRank(b)
+      || a.title.localeCompare(b.title));
     setBusy(ordered.length > 8);
     list.classList.toggle('two-col', ordered.length > 8);
     list.innerHTML = ordered.map((e) => {
-      const room = e.allDay ? '' : (e.room || 'Main Room');
+      const room = e.room || 'Main Room';
       return `
-      <div class="event-card${e.allDay ? ' all-day' : roomClass(room)}">
-        <div class="event-time">${e.allDay ? 'All Day' : esc(formatRange(e.timeRange, e.time))}</div>
+      <div class="event-card${roomClass(room)}">
+        <div class="event-time">${esc(formatRange(e.timeRange, e.time))}</div>
         <div class="event-body">
           <div class="event-title">${esc(e.title)}</div>
-          ${room ? `<div class="event-room">${esc(room)}</div>` : ''}
+          <div class="event-room">${esc(room)}</div>
         </div>
       </div>`;
     }).join('');
