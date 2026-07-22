@@ -68,6 +68,17 @@ async function loadEvents() {
   renderEvents();
 }
 
+// tab color class by room, matching the center's calendar color-coding
+function roomClass(room) {
+  const r = (room || '').toLowerCase();
+  if (/gohonzon room a\b/.test(r)) return ' room-a';
+  if (/gohonzon room b\b/.test(r)) return ' room-b';
+  if (/gohonzon room c\b/.test(r)) return ' room-c';
+  if (/gohonzon room d\b/.test(r)) return ' room-d';
+  if (/conference room/.test(r)) return ' room-conf';
+  return '';
+}
+
 function dayFor(date) {
   return eventsData?.days?.find((d) => d.date === date) || null;
 }
@@ -100,7 +111,7 @@ function renderEvents() {
     const shown = day.events.slice(0, MAX_TODAY_EVENTS);
     const extra = day.events.length - shown.length;
     list.innerHTML = shown.map((e) => `
-      <div class="event-card${e.allDay ? ' all-day' : ''}">
+      <div class="event-card${e.allDay ? ' all-day' : ''}${roomClass(e.room)}">
         <div class="event-time">${e.allDay ? 'All Day' : esc(formatRange(e.timeRange, e.time))}</div>
         <div class="event-body">
           <div class="event-title">${esc(e.title)}</div>
