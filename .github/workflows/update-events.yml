@@ -1,0 +1,43 @@
+name: Update calendar events
+
+on:
+  schedule:
+    # ~5:00 AM, 9:00 AM, 4:00 PM Pacific (PDT); catches morning edits and the
+    # daily quote cycle. GitHub cron runs in UTC.
+    - cron: "0 12 * * *"
+    - cron: "0 16 * * *"
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx playwright install chromium --with-deps
+
+      - name: Scrape KeepAndShare calendar
+        run: node scripts/scrape-events.mjs
+
+      - name: Commit updated events.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update events.json ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi

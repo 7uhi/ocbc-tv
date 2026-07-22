@@ -1,0 +1,13 @@
+{
+  "name": "ocbc-tv",
+  "version": "1.0.0",
+  "description": "Lobby TV display for the SGI-USA Orange County Buddhist Center: today's calendar + the daily Towards 2030 quote",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-events.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

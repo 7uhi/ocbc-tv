@@ -1,0 +1,462 @@
+{
+  "scrapedAt": "2026-07-22T01:25:49.733Z",
+  "timezone": "America/Los_Angeles",
+  "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
+  "days": [
+    {
+      "date": "2026-07-21",
+      "events": [
+        {
+          "title": "Discussion Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback chapter team meeting",
+          "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "SIR Chapter Intro to Buddhism",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "events": [
+        {
+          "title": "Discussion Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Campus Daimoku Toso",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Toso",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "events": [
+        {
+          "title": "Discussion Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "events": [
+        {
+          "title": "Discussion Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "events": [
+        {
+          "title": "Discussion Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Region Youth Weekly Toso",
+          "room": "Gohonzon Room A",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NIR Chapter Introductory Meeting",
+          "room": "Gohonzon Room D",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Laguna Niguel North Discussion Meeting",
+          "room": "Gohonzon Room A",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Soka2030 Daimoku at OCBC",
+          "room": "",
+          "time": "8a",
+          "timeRange": "8a-9a",
+          "allDay": false
+        },
+        {
+          "title": "LNN Planning Meeting",
+          "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Soka2030 In person encouragement",
+          "room": "",
+          "time": "9a",
+          "timeRange": null,
+          "allDay": false
+        },
+        {
+          "title": "WD Region/Chapter leaders meeting",
+          "room": "Gohonzon Room C",
+          "time": "9:30a",
+          "timeRange": "9:30a-10:30a",
+          "allDay": false
+        },
+        {
+          "title": "Aliso Creek District Discussion Meeting",
+          "room": "Gohonzon Room A",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback MD Meeting",
+          "room": "Gohonzon Room D",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "SBK Chapter Sophia Group",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NIR Chapter Sophia Study",
+          "room": "Gohonzon Room A",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "NIR Chapter Sophia Study",
+          "room": "Gohonzon Room B",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "SIR Chapter Sophia Group Meeting",
+          "room": "Gohonzon Room C",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "SIR Chapter Sophia Group Meeting",
+          "room": "Gohonzon Room D",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Capo Sophia meeting",
+          "room": "Gohonzon Room A",
+          "time": "12p",
+          "timeRange": "12p-1p",
+          "allDay": false
+        },
+        {
+          "title": "SIR Chapter Sophia Group Meeting",
+          "room": "Gohonzon Room C",
+          "time": "12p",
+          "timeRange": "12p-1p",
+          "allDay": false
+        },
+        {
+          "title": "Capo Sophia meeting",
+          "room": "Gohonzon Room A",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        },
+        {
+          "title": "LH Sophia Meeting",
+          "room": "Gohonzon Room C",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Canyon Vista Planning Meeting",
+          "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Gosho Lecture Viewing + Q&A",
+          "room": "",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Toso",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "events": [
+        {
+          "title": "America Victory Daimoku Group Toso followed by encouragement",
+          "room": "",
+          "time": "9a",
+          "timeRange": "9a-10:20a",
+          "allDay": false
+        },
+        {
+          "title": "LH chapter AVDG",
+          "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Region Youth Weekly Toso",
+          "room": "Gohonzon Room A",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "LH chapter AVDG",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NIR Chapter Introductory Meeting",
+          "room": "Gohonzon Room D",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "events": [
+        {
+          "title": "Kosen Rufu Gongyo ( in person only)",
+          "room": "",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        }
+      ]
+    }
+  ]
+}
