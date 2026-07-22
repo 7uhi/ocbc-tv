@@ -108,8 +108,13 @@ function renderEvents() {
         <div>No events scheduled today.<br>Enjoy a peaceful visit!</div>
       </div>`;
   } else {
-    const shown = day.events.slice(0, MAX_TODAY_EVENTS);
-    const extra = day.events.length - shown.length;
+    // Today panel order: All Day, Room A, B, C, D, Conference, then the rest;
+    // events.json is time-sorted and sort() is stable, so ties stay in time order
+    const rank = (e) => e.allDay ? 0
+      : ({ ' room-a': 1, ' room-b': 2, ' room-c': 3, ' room-d': 4, ' room-conf': 5 }[roomClass(e.room)] ?? 6);
+    const ordered = [...day.events].sort((a, b) => rank(a) - rank(b));
+    const shown = ordered.slice(0, MAX_TODAY_EVENTS);
+    const extra = ordered.length - shown.length;
     list.innerHTML = shown.map((e) => `
       <div class="event-card${e.allDay ? ' all-day' : ''}${roomClass(e.room)}">
         <div class="event-time">${e.allDay ? 'All Day' : esc(formatRange(e.timeRange, e.time))}</div>
