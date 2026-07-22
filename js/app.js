@@ -18,11 +18,12 @@ function laToday() {
   }).format(new Date());
 }
 
-// "7p" / "6:30p" → "7:00 PM"; "7p-8p" → "7:00 – 8:00 PM"
+// "7p" / "6:30p" → "7 PM" / "6:30 PM" (minutes shown only when nonzero)
 function formatTime(t) {
   const m = /^(\d{1,2})(?::(\d{2}))?\s*([ap])/i.exec(t || '');
   if (!m) return t || '';
-  return `${m[1]}:${m[2] || '00'} ${m[3].toLowerCase() === 'p' ? 'PM' : 'AM'}`;
+  const min = m[2] && m[2] !== '00' ? `:${m[2]}` : '';
+  return `${m[1]}${min} ${m[3].toLowerCase() === 'p' ? 'PM' : 'AM'}`;
 }
 
 function formatRange(range, single) {
@@ -88,6 +89,7 @@ function renderEvents() {
   const note = $('#events-note');
   const today = laToday();
   const day = dayFor(today);
+  list.classList.remove('dense');
 
   if (!day) {
     list.innerHTML = `
@@ -115,6 +117,7 @@ function renderEvents() {
     const ordered = [...day.events].sort((a, b) => rank(a) - rank(b));
     const shown = ordered.slice(0, MAX_TODAY_EVENTS);
     const extra = ordered.length - shown.length;
+    list.classList.toggle('dense', shown.length > 6);
     list.innerHTML = shown.map((e) => `
       <div class="event-card${e.allDay ? ' all-day' : ''}${roomClass(e.room)}">
         <div class="event-time">${e.allDay ? 'All Day' : esc(formatRange(e.timeRange, e.time))}</div>

@@ -134,6 +134,13 @@ main {
 .event-title { font-size: 1.55rem; font-weight: 600; line-height: 1.2; }
 .event-room { font-size: 1.1rem; color: var(--ink-soft); margin-top: 0.15rem; }
 
+/* compact cards on busy days (> 6 events) so everything fits on screen */
+.event-list.dense { gap: 0.5rem; }
+.event-list.dense .event-card { padding: 0.5rem 1.1rem; border-radius: 8px; gap: 1rem; }
+.event-list.dense .event-time { font-size: 1.2rem; flex-basis: 9.5rem; }
+.event-list.dense .event-title { font-size: 1.25rem; }
+.event-list.dense .event-room { font-size: 0.95rem; margin-top: 0.05rem; }
+
 .event-more {
   text-align: center;
   font-size: 1.15rem;
