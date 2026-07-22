@@ -25,9 +25,11 @@ A full-screen lobby display for the **SGI-USA Orange County Buddhist Center** sh
 The page refreshes its data every 30 minutes, rolls over at midnight, and does
 a full reload nightly at 3:30 AM so it can run unattended indefinitely.
 
-On busy days the Today panel switches to two columns and scales the cards to
-fit the screen, so every event shows on a 1080p TV; only if a window is too
-small for everything does it trim to a "+ N more" line.
+On busy days (more than 8 events) the layout rearranges itself: the schedule
+takes over both main columns, and the quote moves into a bottom banner in
+place of the This Week strip. Cards also scale to fit the screen, so every
+event shows on a 1080p TV; only if a window is too small for everything does
+it trim to a "+ N more" line.
 
 ## Previewing another date
 

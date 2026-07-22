@@ -103,6 +103,7 @@ function renderEvents() {
   list.style.fontSize = '';
   list.style.gridTemplateRows = '';
   $('#event-more').hidden = true;
+  setBusy(false);
 
   if (!day) {
     list.innerHTML = `
@@ -128,6 +129,7 @@ function renderEvents() {
     const rank = (e) => e.allDay ? 0
       : ({ ' room-a': 1, ' room-b': 2, ' room-c': 3, ' room-d': 4, ' room-conf': 5 }[roomClass(e.room)] ?? 6);
     const ordered = [...day.events].sort((a, b) => rank(a) - rank(b));
+    setBusy(ordered.length > 8);
     list.classList.toggle('two-col', ordered.length > 8);
     list.innerHTML = ordered.map((e) => `
       <div class="event-card${e.allDay ? ' all-day' : ''}${roomClass(e.room)}">
@@ -149,6 +151,13 @@ function renderEvents() {
     : '';
 
   renderWeek(today);
+}
+
+// Busy layout: events take both main columns, quote becomes the bottom banner
+function setBusy(on) {
+  if (document.body.classList.contains('busy') === on) return;
+  document.body.classList.toggle('busy', on);
+  fitQuote($('#quote-body'));
 }
 
 // Fit all of today's cards on screen: shrink the type scale first, then as a
@@ -266,11 +275,14 @@ function renderQuote(post) {
   fitQuote(body);
 }
 
-// shrink the quote font until it fits its panel
+// shrink the quote font until it fits its panel (banner mode starts smaller)
 function fitQuote(body) {
-  let size = 2.0;
+  if (!body) return;
+  const busy = document.body.classList.contains('busy');
+  let size = busy ? 1.5 : 2.0;
+  const floor = busy ? 0.8 : 1.0;
   body.style.fontSize = size + 'rem';
-  while (size > 1.0 && body.scrollHeight > body.clientHeight) {
+  while (size > floor && body.scrollHeight > body.clientHeight) {
     size -= 0.1;
     body.style.fontSize = size.toFixed(1) + 'rem';
   }
