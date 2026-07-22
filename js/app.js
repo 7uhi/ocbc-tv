@@ -7,7 +7,6 @@ const TZ = 'America/Los_Angeles';
 const QUOTE_API =
   'https://cms.sgi-usa.org/wp-json/wp/v2/posts?per_page=1&_fields=date,content';
 const REFRESH_MS = 30 * 60 * 1000;
-const MAX_TODAY_EVENTS = 8;
 const WEEK_DAYS = 6;
 
 const $ = (sel) => document.querySelector(sel);
@@ -100,7 +99,10 @@ function renderEvents() {
   const note = $('#events-note');
   const today = laToday();
   const day = dayFor(today);
-  list.classList.remove('dense');
+  list.classList.remove('two-col');
+  list.style.fontSize = '';
+  list.style.gridTemplateRows = '';
+  $('#event-more').hidden = true;
 
   if (!day) {
     list.innerHTML = `
@@ -126,18 +128,16 @@ function renderEvents() {
     const rank = (e) => e.allDay ? 0
       : ({ ' room-a': 1, ' room-b': 2, ' room-c': 3, ' room-d': 4, ' room-conf': 5 }[roomClass(e.room)] ?? 6);
     const ordered = [...day.events].sort((a, b) => rank(a) - rank(b));
-    const shown = ordered.slice(0, MAX_TODAY_EVENTS);
-    const extra = ordered.length - shown.length;
-    list.classList.toggle('dense', shown.length > 6);
-    list.innerHTML = shown.map((e) => `
+    list.classList.toggle('two-col', ordered.length > 8);
+    list.innerHTML = ordered.map((e) => `
       <div class="event-card${e.allDay ? ' all-day' : ''}${roomClass(e.room)}">
         <div class="event-time">${e.allDay ? 'All Day' : esc(formatRange(e.timeRange, e.time))}</div>
         <div class="event-body">
           <div class="event-title">${esc(e.title)}</div>
           ${e.room ? `<div class="event-room">${esc(e.room)}</div>` : ''}
         </div>
-      </div>`).join('')
-      + (extra > 0 ? `<div class="event-more">+ ${extra} more — see full calendar at ocvictory.com/events</div>` : '');
+      </div>`).join('');
+    fitEvents();
   }
 
   // surface staleness quietly if the scraper has been failing for days
@@ -149,6 +149,41 @@ function renderEvents() {
     : '';
 
   renderWeek(today);
+}
+
+// Fit all of today's cards on screen: shrink the type scale first, then as a
+// last resort hide trailing cards behind a "+N more" line.
+function fitEvents() {
+  const list = $('#event-list');
+  const cards = Array.from(list.querySelectorAll('.event-card'));
+  const more = $('#event-more');
+  if (!cards.length) return;
+
+  const twoCol = list.classList.contains('two-col');
+  const setRows = (n) => {
+    if (twoCol) list.style.gridTemplateRows = `repeat(${Math.ceil(n / 2)}, auto)`;
+  };
+
+  cards.forEach((c) => { c.style.display = ''; });
+  more.hidden = true;
+  more.textContent = '';
+  setRows(cards.length);
+
+  let size = 1.0;
+  list.style.fontSize = '1rem';
+  while (size > 0.64 && list.scrollHeight > list.clientHeight) {
+    size -= 0.02;
+    list.style.fontSize = size.toFixed(2) + 'rem';
+  }
+
+  let visible = cards.length;
+  while (list.scrollHeight > list.clientHeight && visible > 2) {
+    visible--;
+    cards[visible].style.display = 'none';
+    more.hidden = false;
+    more.textContent = `+ ${cards.length - visible} more — see full calendar at ocvictory.com/events`;
+    setRows(visible);
+  }
 }
 
 function renderWeek(today) {
@@ -274,4 +309,5 @@ setInterval(() => { loadEvents(); loadQuote(); }, REFRESH_MS);
 window.addEventListener('resize', () => {
   const body = $('#quote-body');
   if (body) fitQuote(body);
+  fitEvents();
 });

@@ -25,6 +25,25 @@ A full-screen lobby display for the **SGI-USA Orange County Buddhist Center** sh
 The page refreshes its data every 30 minutes, rolls over at midnight, and does
 a full reload nightly at 3:30 AM so it can run unattended indefinitely.
 
+On busy days the Today panel switches to two columns and scales the cards to
+fit the screen, so every event shows on a 1080p TV; only if a window is too
+small for everything does it trim to a "+ N more" line.
+
+## Previewing another date
+
+Add `?date=YYYY-MM-DD` to the URL to see what the display will look like on
+any day in the scraped two-week window:
+
+- Live site: `https://7uhi.github.io/ocbc-tv/?date=2026-07-26`
+- Local: `python3 -m http.server 8080` in this folder, then open
+  `http://localhost:8080/?date=2026-07-26`
+
+The header shows the previewed date marked **"(preview)"** so it can't be
+mistaken for the live display. Notes: the quote panel always shows the current
+day's quote (the SGI API only publishes one day at a time), the clock keeps
+real time, and dates outside the scraped window show the "schedule
+unavailable" message. Remove the parameter to return to the normal live view.
+
 ## Setting up the TV
 
 Open the GitHub Pages URL full-screen on whatever drives the TV, and disable
