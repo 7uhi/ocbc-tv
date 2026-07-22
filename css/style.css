@@ -46,12 +46,17 @@ header {
 .brand { display: flex; align-items: center; gap: 1.1rem; }
 
 .brand-mark {
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 3.6rem;
+  height: 3.6rem;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #ffd98a, var(--yellow) 55%, #f0b400);
+  background: var(--paper);
   box-shadow: 0 0 0 4px rgb(255 255 255 / 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.brand-mark img { width: 82%; height: 82%; object-fit: contain; }
 
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-name { font-family: var(--serif); font-size: 2.1rem; letter-spacing: 0.01em; }
