@@ -124,11 +124,23 @@ function renderEvents() {
         <div>No events scheduled today.<br>Enjoy a peaceful visit!</div>
       </div>`;
   } else {
-    // Today panel order: All Day, Room A, B, C, D, Conference, then the rest;
-    // events.json is time-sorted and sort() is stable, so ties stay in time order
-    const rank = (e) => e.allDay ? 0
-      : ({ ' room-a': 1, ' room-b': 2, ' room-c': 3, ' room-d': 4, ' room-conf': 5 }[roomClass(e.room)] ?? 6);
-    const ordered = [...day.events].sort((a, b) => rank(a) - rank(b));
+    // Today panel order: All Day first, then earliest to latest; events at the
+    // same time tie-break by room (A, B, C, D, Conference, then room-less)
+    const minutes = (t) => {
+      const m = /^(\d{1,2})(?::(\d{2}))?\s*([ap])/i.exec(t || '');
+      if (!m) return Infinity;
+      let h = parseInt(m[1], 10) % 12;
+      if (m[3].toLowerCase() === 'p') h += 12;
+      return h * 60 + (m[2] ? parseInt(m[2], 10) : 0);
+    };
+    const roomRank = (e) =>
+      ({ ' room-a': 1, ' room-b': 2, ' room-c': 3, ' room-d': 4, ' room-conf': 5 }[roomClass(e.room)] ?? 6);
+    const ordered = [...day.events].sort((a, b) => {
+      if (a.allDay !== b.allDay) return a.allDay ? -1 : 1;
+      return minutes(a.time) - minutes(b.time)
+        || roomRank(a) - roomRank(b)
+        || a.title.localeCompare(b.title);
+    });
     setBusy(ordered.length > 8);
     list.classList.toggle('two-col', ordered.length > 8);
     list.innerHTML = ordered.map((e) => `
