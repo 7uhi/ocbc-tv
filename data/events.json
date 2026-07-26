@@ -1,55 +1,8 @@
 {
-  "scrapedAt": "2026-07-26T00:02:18.572Z",
+  "scrapedAt": "2026-07-26T13:14:09.851Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-07-25",
-      "events": [
-        {
-          "title": "Discussion Meetings",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Region Youth Weekly Toso",
-          "room": "Gohonzon Room A",
-          "time": "9a",
-          "timeRange": "9a-10a",
-          "allDay": false
-        },
-        {
-          "title": "NAV chapter intro meeting",
-          "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NIR Chapter Introductory Meeting",
-          "room": "Gohonzon Room D",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NAV chapter intro meeting",
-          "room": "Gohonzon Room C",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "Laguna Niguel North Discussion Meeting",
-          "room": "Gohonzon Room A",
-          "time": "1p",
-          "timeRange": "1p-2p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-07-26",
       "events": [
@@ -455,6 +408,67 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Region Youth Weekly Toso",
+          "room": "Gohonzon Room A",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Dana Point District Study Meeting",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NIR Chapter Introductory Meeting",
+          "room": "Gohonzon Room D",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "LH Chapter Intro to Buddhism",
+          "room": "Gohonzon Room C",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        },
+        {
+          "title": "LH Chapter Intro to Buddhism",
+          "room": "Gohonzon Room C",
+          "time": "2p",
+          "timeRange": "2p-3p",
+          "allDay": false
         }
       ]
     }
