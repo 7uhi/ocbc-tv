@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-28T17:18:22.495Z",
+  "scrapedAt": "2026-07-28T23:58:31.973Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -35,6 +35,13 @@
         {
           "title": "Canyon Vista Planning Meeting",
           "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Capo chapter intro meeting",
+          "room": "Gohonzon Room B",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -85,6 +92,13 @@
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
+        },
+        {
+          "title": "SIR chapter team meeting",
+          "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         }
       ]
     },
@@ -125,6 +139,13 @@
           "allDay": false
         },
         {
+          "title": "Saddleback chapter AVDG",
+          "room": "Gohonzon Room C",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
           "title": "LH chapter AVDG",
           "room": "Gohonzon Room B",
           "time": "10a",
@@ -158,6 +179,13 @@
       "date": "2026-08-02",
       "events": [
         {
+          "title": "Laguna Hills Dist. Planning Mtg",
+          "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
           "title": "Kosen Rufu Gongyo ( in person only)",
           "room": "",
           "time": "10a",
@@ -187,6 +215,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "Ikeda Wisdom Academy",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         },
         {
           "title": "Open for Chanting",
@@ -358,6 +393,13 @@
           "room": "",
           "time": "9a",
           "timeRange": null,
+          "allDay": false
+        },
+        {
+          "title": "La Paz District Study Meeting",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
           "allDay": false
         },
         {
