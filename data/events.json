@@ -1,27 +1,8 @@
 {
-  "scrapedAt": "2026-07-28T23:58:31.973Z",
+  "scrapedAt": "2026-07-29T14:03:23.788Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-07-28",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-07-29",
       "events": [
@@ -48,7 +29,7 @@
         },
         {
           "title": "Gosho Lecture Viewing + Q&A",
-          "room": "",
+          "room": "Main Auditorium",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -56,13 +37,6 @@
         {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Toso",
-          "room": "Gohonzon Room C",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -434,6 +408,25 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "events": [
+        {
+          "title": "Home Visit Week/Member Care Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         }
       ]
     }
