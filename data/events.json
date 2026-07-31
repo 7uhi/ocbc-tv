@@ -1,41 +1,8 @@
 {
-  "scrapedAt": "2026-07-31T00:01:56.185Z",
+  "scrapedAt": "2026-07-31T13:57:36.621Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-07-30",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Saddleback chapter intro meeting",
-          "room": "Gohonzon Room C",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "SIR chapter team meeting",
-          "room": "Conference Room",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-07-31",
       "events": [
@@ -438,6 +405,32 @@
         {
           "title": "Toso",
           "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "events": [
+        {
+          "title": "Home Visit Week/Member Care Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback Intro Meeting",
+          "room": "Gohonzon Room C",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
