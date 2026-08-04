@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-03T17:41:23.563Z",
+  "scrapedAt": "2026-08-04T00:09:06.786Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -392,6 +392,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "Aliso Viejo District discussion meeting",
+          "room": "Gohonzon Room A",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
         },
         {
           "title": "Dana Point District Discussion Mts",
