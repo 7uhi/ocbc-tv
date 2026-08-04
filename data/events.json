@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-08-04T00:09:06.786Z",
+  "scrapedAt": "2026-08-04T14:13:52.438Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-03",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-08-04",
       "events": [
@@ -427,6 +415,18 @@
           "time": "2p",
           "timeRange": "2p-3p",
           "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "events": [
+        {
+          "title": "Discussion Meeting Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
         }
       ]
     }
