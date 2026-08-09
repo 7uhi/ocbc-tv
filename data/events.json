@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-09T16:21:45.445Z",
+  "scrapedAt": "2026-08-09T23:31:17.522Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -14,6 +14,13 @@
           "allDay": false
         },
         {
+          "title": "Mission Viejo Central District Study",
+          "room": "Gohonzon Room C",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
           "title": "Soka2030 In person encouragement",
           "room": "",
           "time": "9a",
@@ -23,6 +30,13 @@
         {
           "title": "La Paz District Study Meeting",
           "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Mission Viejo Central District Study",
+          "room": "Gohonzon Room C",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
@@ -71,6 +85,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "Capistrano Chapter intro to Buddhism",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         },
         {
           "title": "Open for Chanting",
