@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-08-10T23:34:38.260Z",
+  "scrapedAt": "2026-08-11T12:56:34.751Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-10",
-      "events": [
-        {
-          "title": "Home Visit Week/Member Care Meetings",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-08-11",
       "events": [
@@ -367,14 +355,14 @@
         },
         {
           "title": "Soka2030 Daimoku at OCBC",
-          "room": "",
+          "room": "Main Auditorium",
           "time": "8a",
           "timeRange": "8a-9a",
           "allDay": false
         },
         {
           "title": "Soka2030 In person encouragement",
-          "room": "",
+          "room": "Main Auditorium",
           "time": "9a",
           "timeRange": null,
           "allDay": false
@@ -420,6 +408,18 @@
           "time": "12p",
           "timeRange": "12p-1p",
           "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
         }
       ]
     }
