@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-11T12:56:34.751Z",
+  "scrapedAt": "2026-08-11T16:45:25.502Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -158,10 +158,24 @@
           "allDay": false
         },
         {
+          "title": "Deerfield district meeting",
+          "room": "Gohonzon Room A",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
           "title": "La Paz District Discussion Meeting",
           "room": "Gohonzon Room B",
           "time": "11a",
           "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Deerfield district meeting",
+          "room": "Gohonzon Room A",
+          "time": "12p",
+          "timeRange": "12p-1p",
           "allDay": false
         },
         {
