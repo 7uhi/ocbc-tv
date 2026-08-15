@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-08-14T23:21:01.351Z",
+  "scrapedAt": "2026-08-15T12:31:07.432Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-14",
-      "events": [
-        {
-          "title": "Home Visit Week/Member Care Meetings",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-08-15",
       "events": [
@@ -441,6 +429,18 @@
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
         }
       ]
     }
