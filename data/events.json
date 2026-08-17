@@ -1,69 +1,8 @@
 {
-  "scrapedAt": "2026-08-16T23:19:08.580Z",
+  "scrapedAt": "2026-08-17T12:37:19.364Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-16",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Aliso Viejo District discussion meeting",
-          "room": "Gohonzon Room A",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "Dana Point District Discussion Mts",
-          "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "La Paz District Meeting",
-          "room": "Gohonzon Room B",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "Deerfield district meeting",
-          "room": "Gohonzon Room A",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "La Paz District Discussion Meeting",
-          "room": "Gohonzon Room B",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "Deerfield district meeting",
-          "room": "Gohonzon Room A",
-          "time": "12p",
-          "timeRange": "12p-1p",
-          "allDay": false
-        },
-        {
-          "title": "Laguna Niguel South Discussion Meeting",
-          "room": "Gohonzon Room B",
-          "time": "2p",
-          "timeRange": "2p-3p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-08-17",
       "events": [
@@ -461,6 +400,53 @@
           "room": "Gohonzon Room A",
           "time": "2p",
           "timeRange": "2p-3p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "events": [
+        {
+          "title": "Soka2030 Daimoku at OCBC",
+          "room": "Main Auditorium",
+          "time": "8a",
+          "timeRange": "8a-9a",
+          "allDay": false
+        },
+        {
+          "title": "LNN Planning Meeting",
+          "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Soka2030 In person encouragement",
+          "room": "Main Auditorium",
+          "time": "9a",
+          "timeRange": null,
+          "allDay": false
+        },
+        {
+          "title": "Laguna Niguel North Planning Meeting",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NIR AVDG",
+          "room": "Gohonzon Room A",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NIR Sophia meeting",
+          "room": "Gohonzon Room A",
+          "time": "11a",
+          "timeRange": "11a-12p",
           "allDay": false
         }
       ]
