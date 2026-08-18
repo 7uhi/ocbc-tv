@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-08-17T23:22:22.083Z",
+  "scrapedAt": "2026-08-18T12:38:58.318Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-17",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-08-18",
       "events": [
@@ -450,6 +438,10 @@
           "allDay": false
         }
       ]
+    },
+    {
+      "date": "2026-08-31",
+      "events": []
     }
   ]
 }
