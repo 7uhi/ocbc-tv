@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-20T16:21:33.780Z",
+  "scrapedAt": "2026-08-20T23:25:15.774Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -61,13 +61,6 @@
         {
           "title": "NAV chapter intro meeting",
           "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NIR Chapter Introductory Meeting",
-          "room": "Gohonzon Room D",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
@@ -177,6 +170,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "Aliso Viejo District Planning Meeting",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         },
         {
           "title": "Open for Chanting",
@@ -373,6 +373,13 @@
     {
       "date": "2026-09-01",
       "events": [
+        {
+          "title": "Aliso Viejo District Chanting Toso Session",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
         {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
