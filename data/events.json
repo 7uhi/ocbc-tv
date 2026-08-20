@@ -1,48 +1,8 @@
 {
-  "scrapedAt": "2026-08-19T23:22:14.345Z",
+  "scrapedAt": "2026-08-20T12:41:17.368Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-19",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Canyon Vista District Toso",
-          "room": "Gohonzon Room B",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "South Aliso Viejo Chapter Intro to Buddhism",
-          "room": "Gohonzon Room C",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Toso",
-          "room": "Gohonzon Room D",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-08-20",
       "events": [
@@ -423,6 +383,32 @@
         {
           "title": "Saddleback chapter Team Meeting",
           "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "events": [
+        {
+          "title": "Canyon Vista Member Care",
+          "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "South AV Chapter Intro Meeting",
+          "room": "Gohonzon Room B",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
