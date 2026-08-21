@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-21T16:19:28.351Z",
+  "scrapedAt": "2026-08-21T23:23:35.064Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -49,6 +49,13 @@
         {
           "title": "Laguna Niguel North Discussion Meeting",
           "room": "Gohonzon Room A",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        },
+        {
+          "title": "NAV 4C Meeting",
+          "room": "Gohonzon Room B",
           "time": "1p",
           "timeRange": "1p-2p",
           "allDay": false
