@@ -1,76 +1,8 @@
 {
-  "scrapedAt": "2026-08-23T23:20:57.887Z",
+  "scrapedAt": "2026-08-24T12:42:44.971Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-23",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Soka2030 Daimoku at OCBC",
-          "room": "Main Auditorium",
-          "time": "8a",
-          "timeRange": "8a-9a",
-          "allDay": false
-        },
-        {
-          "title": "Soka2030 In person encouragement",
-          "room": "Main Auditorium",
-          "time": "9a",
-          "timeRange": null,
-          "allDay": false
-        },
-        {
-          "title": "Eastwing District Meeting",
-          "room": "Gohonzon Room A",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "SBK Sophia Group",
-          "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "SIR Chapter Sophia Group Meeting",
-          "room": "Gohonzon Room B",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "SIR Chapter Sophia Group Meeting",
-          "room": "Gohonzon Room C",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "Memorial Service (Starts at 1pm)",
-          "room": "Main Auditorium",
-          "time": "12p",
-          "timeRange": "12p-3p",
-          "allDay": false
-        },
-        {
-          "title": "SIR Chapter Sophia Group Meeting",
-          "room": "Gohonzon Room B",
-          "time": "12p",
-          "timeRange": "12p-1p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-08-24",
       "events": [
@@ -417,6 +349,18 @@
           "room": "Gohonzon Room C",
           "time": "11a",
           "timeRange": "11a-12p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "events": [
+        {
+          "title": "Kosen Rufu Gongyo ( in person only)",
+          "room": "Main Auditorium",
+          "time": "10a",
+          "timeRange": "10a-11a",
           "allDay": false
         }
       ]
