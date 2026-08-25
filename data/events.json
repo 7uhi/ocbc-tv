@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-25T16:23:38.380Z",
+  "scrapedAt": "2026-08-25T23:24:43.822Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -16,6 +16,13 @@
         {
           "title": "Aliso Viejo District Planning Meeting",
           "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Capistrano intro to Buddhism",
+          "room": "Gohonzon Room B",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
