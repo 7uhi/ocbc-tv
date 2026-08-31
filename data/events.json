@@ -1,55 +1,8 @@
 {
-  "scrapedAt": "2026-08-31T01:07:07.254Z",
+  "scrapedAt": "2026-08-31T18:43:34.665Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-08-30",
-      "events": [
-        {
-          "title": "Soka2030 Daimoku at OCBC",
-          "room": "Main Auditorium",
-          "time": "8a",
-          "timeRange": "8a-9a",
-          "allDay": false
-        },
-        {
-          "title": "LNN Planning Meeting",
-          "room": "Gohonzon Room B",
-          "time": "9a",
-          "timeRange": "9a-10a",
-          "allDay": false
-        },
-        {
-          "title": "Soka2030 In person encouragement",
-          "room": "Main Auditorium",
-          "time": "9a",
-          "timeRange": null,
-          "allDay": false
-        },
-        {
-          "title": "Laguna Niguel North Planning Meeting",
-          "room": "Gohonzon Room B",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NIR AVDG",
-          "room": "Gohonzon Room A",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NIR Sophia meeting",
-          "room": "Gohonzon Room A",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-08-31",
       "events": []
@@ -156,6 +109,13 @@
         {
           "title": "NAV chapter intro meeting",
           "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV Chapter Kings of Soka",
+          "room": "Gohonzon Room A",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
@@ -347,6 +307,67 @@
           "room": "Gohonzon Room C",
           "time": "2p",
           "timeRange": "2p-3p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "events": [
+        {
+          "title": "Soka2030 Daimoku at OCBC",
+          "room": "Main Auditorium",
+          "time": "8a",
+          "timeRange": "8a-9a",
+          "allDay": false
+        },
+        {
+          "title": "MVC District Study",
+          "room": "Gohonzon Room C",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Soka2030 In person encouragement",
+          "room": "Main Auditorium",
+          "time": "9a",
+          "timeRange": null,
+          "allDay": false
+        },
+        {
+          "title": "La Paz District Study Meeting",
+          "room": "Gohonzon Room D",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "MVC District Study",
+          "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Soka Family Day (starts at 11am)",
+          "room": "Main Auditorium",
+          "time": "10:30a",
+          "timeRange": "10:30a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Soka Family Day Breakouts (starts at 11am)",
+          "room": "Gohonzon Room A",
+          "time": "10:30a",
+          "timeRange": "10:30a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Soka Family Day Breakouts (starts at 11am)",
+          "room": "Gohonzon Room B",
+          "time": "10:30a",
+          "timeRange": "10:30a-12p",
           "allDay": false
         }
       ]
