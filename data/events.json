@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-02T15:56:06.330Z",
+  "scrapedAt": "2026-09-02T19:03:46.273Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -130,6 +130,20 @@
           "room": "Gohonzon Room C",
           "time": "11a",
           "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "South AV Chapter Team Meeting",
+          "room": "Gohonzon Room B",
+          "time": "12p",
+          "timeRange": "12p-1p",
+          "allDay": false
+        },
+        {
+          "title": "South AV Chapter Team Meeting",
+          "room": "Gohonzon Room B",
+          "time": "1p",
+          "timeRange": "1p-2p",
           "allDay": false
         }
       ]
