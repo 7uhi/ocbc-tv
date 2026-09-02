@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-01T18:58:05.940Z",
+  "scrapedAt": "2026-09-02T00:50:30.257Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -40,6 +40,13 @@
           "allDay": false
         },
         {
+          "title": "Michelson Toso",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
           "time": "7p",
@@ -68,6 +75,13 @@
         {
           "title": "Saddleback Intro Meeting",
           "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Serrano planning meeting",
+          "room": "Gohonzon Room B",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -198,6 +212,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "Michelson Toso and Study",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         },
         {
           "title": "Open for Chanting",
