@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-02T19:03:46.273Z",
+  "scrapedAt": "2026-09-03T00:58:18.906Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -123,6 +123,13 @@
           "room": "Gohonzon Room D",
           "time": "10a",
           "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Ikeda Wisdom Academy",
+          "room": "Main Auditorium",
+          "time": "10:30a",
+          "timeRange": "10:30a-11:30a",
           "allDay": false
         },
         {
