@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-04T18:40:40.747Z",
+  "scrapedAt": "2026-09-05T00:38:55.611Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -29,6 +29,13 @@
           "room": "Gohonzon Room A",
           "time": "9a",
           "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Laguna Hills District Planning Meeting",
+          "room": "Conference Room",
+          "time": "10a",
+          "timeRange": "10a-11a",
           "allDay": false
         },
         {
