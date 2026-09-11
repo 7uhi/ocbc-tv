@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-11T15:49:35.876Z",
+  "scrapedAt": "2026-09-11T18:51:26.871Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -89,6 +89,13 @@
         {
           "title": "MVC District Study",
           "room": "Gohonzon Room C",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Serrano District chanting",
+          "room": "Gohonzon Room D",
           "time": "9a",
           "timeRange": "9a-10a",
           "allDay": false
@@ -401,6 +408,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "El Toro Disteict Toso",
+          "room": "Gohonzon Room D",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         },
         {
           "title": "Michelson district Toso",
