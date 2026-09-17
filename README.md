@@ -1,5 +1,7 @@
 # OCBC TV Display
 
+**[Open the live TV display](https://7uhi.github.io/ocbc-tv/)**
+
 A full-screen lobby display for the **SGI-USA Orange County Buddhist Center** showing:
 
 - **Today at the Center** — today's events from the center's calendar (the same
