@@ -8,6 +8,8 @@ const QUOTE_API =
   'https://cms.sgi-usa.org/wp-json/wp/v2/posts?per_page=1&_fields=date,content';
 const REFRESH_MS = 30 * 60 * 1000;
 const WEEK_DAYS = 6;
+const PANEL_ROTATION_MS = 15 * 1000;
+let panelRotationTimer = null;
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -138,9 +140,9 @@ function renderEvents() {
   list.style.fontSize = '';
   list.style.gridTemplateRows = '';
   $('#event-more').hidden = true;
-  setBusy(false);
 
   if (!day) {
+    setBusy(false);
     renderedCount = -1;
     $('#today-allday').textContent = '';
     list.innerHTML = `
@@ -160,6 +162,7 @@ function renderEvents() {
 
   const allTimed = day.events.filter((e) => !e.allDay);
   const timed = allTimed.filter(isCurrent);
+  setBusy(timed.length > 8);
   renderedCount = timed.length;
   if (timed.length === 0) {
     list.innerHTML = `
@@ -180,7 +183,6 @@ function renderEvents() {
       (timeToMin(a.time) ?? Infinity) - (timeToMin(b.time) ?? Infinity)
       || roomRank(a) - roomRank(b)
       || a.title.localeCompare(b.title));
-    setBusy(ordered.length > 8);
     list.classList.toggle('two-col', ordered.length > 8);
     list.innerHTML = ordered.map((e) => {
       const room = e.room || 'Main Room';
@@ -211,7 +213,23 @@ function renderEvents() {
 function setBusy(on) {
   if (document.body.classList.contains('busy') === on) return;
   document.body.classList.toggle('busy', on);
-  fitQuote($('#quote-body'));
+  startPanelRotation();
+}
+
+// Always begin with the quote; busy days keep it visible in the bottom banner.
+function startPanelRotation() {
+  clearInterval(panelRotationTimer);
+  showBuddhability(false);
+  if (document.body.classList.contains('busy')) return;
+  panelRotationTimer = setInterval(() => {
+    showBuddhability($('.buddhability-panel').hidden);
+  }, PANEL_ROTATION_MS);
+}
+
+function showBuddhability(show) {
+  $('.quote-panel').hidden = show;
+  $('.buddhability-panel').hidden = !show;
+  if (!show) fitQuote($('#quote-body'));
 }
 
 // Fit all of today's cards on screen: shrink the type scale first, then as a
@@ -377,6 +395,7 @@ function everySecond() {
 }
 
 tickClock();
+startPanelRotation();
 loadEvents();
 loadQuote();
 setInterval(everySecond, 1000);

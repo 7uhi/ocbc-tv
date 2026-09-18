@@ -7,6 +7,8 @@ A full-screen lobby display for the **SGI-USA Orange County Buddhist Center** sh
 - **Towards 2030 with Ikeda Sensei** — the daily quote from
   [cms.sgi-usa.org/tmf](https://cms.sgi-usa.org/tmf/), fetched live
 - A clock, today's date, and a preview of the next six days
+- In the default layout, the daily quote alternates every 15 seconds with a
+  Buddhability app QR code. Busy days keep the quote banner without rotation.
 
 ## How it works
 
