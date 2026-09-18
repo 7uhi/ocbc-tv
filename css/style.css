@@ -18,6 +18,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 html, body { height: 100%; }
 
@@ -298,6 +299,75 @@ body.busy .quote-source {
   padding-top: 0.7rem;
   margin-top: 1rem;
   min-height: 2.2rem;
+}
+
+/* Keep the complete square artwork visible. Overlay positions scale with it,
+   leaving the flower and the original wordmark unobstructed. */
+.buddhability-panel {
+  grid-area: quote;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  padding: clamp(12px, 2vh, 24px);
+  background: #242424;
+  color: #0f0f0f;
+}
+
+.buddhability-stage {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  container-type: size;
+  display: grid;
+  place-items: center;
+}
+
+.buddhability-artwork {
+  position: relative;
+  width: min(100cqw, 100cqh);
+  aspect-ratio: 1;
+  container-type: inline-size;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgb(0 0 0 / 0.25);
+}
+
+.buddhability-background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.buddhability-code {
+  position: absolute;
+  top: 5%;
+  right: 6%;
+  width: 43%;
+  padding: 1.8%;
+  background: #fff;
+  border-radius: 3cqi;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 0.18);
+}
+
+.buddhability-code img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.buddhability-panel h2 {
+  position: absolute;
+  top: 53%;
+  left: 6%;
+  width: 88%;
+  padding: 2% 3%;
+  border-radius: 2cqi;
+  background: #fff8df;
+  font-size: 4.5cqi;
+  line-height: 1.15;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 0.1);
 }
 
 /* ---------- week strip ---------- */
