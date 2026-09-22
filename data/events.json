@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-09-22T01:27:37.423Z",
+  "scrapedAt": "2026-09-22T16:13:58.413Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-09-21",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-09-22",
       "events": [
@@ -433,6 +421,18 @@
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
         }
       ]
     }
