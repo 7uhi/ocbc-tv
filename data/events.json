@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-09-26T01:13:14.114Z",
+  "scrapedAt": "2026-09-26T15:43:16.502Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-09-25",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-09-26",
       "events": [
@@ -443,6 +431,18 @@
         },
         {
           "title": "OCBC Closed",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "events": [
+        {
+          "title": "District Activity Week",
           "room": "",
           "time": null,
           "timeRange": null,
