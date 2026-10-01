@@ -1,62 +1,8 @@
 {
-  "scrapedAt": "2026-10-01T01:49:29.580Z",
+  "scrapedAt": "2026-10-01T17:58:13.407Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-09-30",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "El Toro District Chanting",
-          "room": "Gohonzon Room D",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Gosho Lecture Viewing",
-          "room": "Main Auditorium",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Michelson district Toso",
-          "room": "Gohonzon Room B",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Michelson district Toso",
-          "room": "Gohonzon Room C",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Territory Youth Leader’s Meeting",
-          "room": "Conference Room",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-10-01",
       "events": [
@@ -437,6 +383,39 @@
         {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "events": [
+        {
+          "title": "Home Visit Week/Member Care Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Foothill Trabuco Study meeting",
+          "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "SAV Intro to Buddhism Mtg",
+          "room": "Gohonzon Room B",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
