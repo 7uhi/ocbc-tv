@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-10-06T02:42:49.155Z",
+  "scrapedAt": "2026-10-06T17:53:31.174Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-10-05",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-10-06",
       "events": [
@@ -165,6 +153,20 @@
           "allDay": false
         },
         {
+          "title": "Zone",
+          "room": "Gohonzon Room A",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Zone",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
           "title": "NAV chapter intro meeting",
           "room": "Gohonzon Room C",
           "time": "11a",
@@ -176,6 +178,27 @@
           "room": "Gohonzon Room D",
           "time": "11a",
           "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Zone",
+          "room": "Gohonzon Room A",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Zone",
+          "room": "Gohonzon Room B",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Zone",
+          "room": "Gohonzon Room D",
+          "time": "12p",
+          "timeRange": "12p-1p",
           "allDay": false
         },
         {
@@ -212,6 +235,13 @@
           "allDay": false
         },
         {
+          "title": "MVC District Study/Planning",
+          "room": "Gohonzon Room D",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
           "title": "Soka2030 In person encouragement",
           "room": "Main Auditorium",
           "time": "9a",
@@ -242,6 +272,13 @@
         {
           "title": "La Paz District Study Meetinh",
           "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "MVC District Study/Plng",
+          "room": "Gohonzon Room D",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
@@ -297,6 +334,13 @@
           "allDay": false
         },
         {
+          "title": "El Toro district Toso",
+          "room": "Gohonzon Room D",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
           "title": "Foothill Trabuco Study meeting",
           "room": "Conference Room",
           "time": "7p",
@@ -339,6 +383,13 @@
         {
           "title": "Saddleback Intro Meeting",
           "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "SIR Chapter Team Meeting",
+          "room": "Conference Room",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -483,6 +534,18 @@
           "time": "2p",
           "timeRange": "2p-3p",
           "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "events": [
+        {
+          "title": "Discussion Meeting Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
         }
       ]
     }
