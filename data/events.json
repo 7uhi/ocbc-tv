@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-14T19:49:23.290Z",
+  "scrapedAt": "2026-10-15T01:14:10.529Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -289,6 +289,13 @@
         {
           "title": "District Toso",
           "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "El Toro District Chanting",
+          "room": "Gohonzon Room D",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
