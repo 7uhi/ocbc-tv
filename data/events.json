@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-16T16:01:42.683Z",
+  "scrapedAt": "2026-10-16T19:07:14.194Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -24,6 +24,20 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "SC Zone Team Meeting",
+          "room": "Conference Room",
+          "time": "8a",
+          "timeRange": "8a-12p",
+          "allDay": false
+        },
+        {
+          "title": "NAV Visit",
+          "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
         },
         {
           "title": "Region Youth Weekly Toso (9am - 2pm)",
@@ -72,6 +86,13 @@
           "room": "Gohonzon Room D",
           "time": "11a",
           "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "NAV Chapter Team Meeting",
+          "room": "Gohonzon Room C",
+          "time": "12p",
+          "timeRange": "12p-1p",
           "allDay": false
         },
         {
@@ -129,6 +150,13 @@
           "allDay": false
         },
         {
+          "title": "Aliso Creek Discussion Meeting",
+          "room": "Gohonzon Room A",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
           "title": "Foothll Trabuco District Discussion Meeting",
           "room": "Gohonzon Room D",
           "time": "11a",
@@ -174,6 +202,13 @@
           "allDay": true
         },
         {
+          "title": "South OC REC for District & Chapter Leaders (7pm - 8:30pm)",
+          "room": "Main Auditorium",
+          "time": "6:30a",
+          "timeRange": "6:30a-8:30a",
+          "allDay": false
+        },
+        {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
           "time": "7p",
@@ -183,13 +218,6 @@
         {
           "title": "Saddleback chapter Team Meeting",
           "room": "Conference Room",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "SIR Chapter Intro to Buddhism",
-          "room": "Gohonzon Room C",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -249,6 +277,13 @@
         {
           "title": "Saddleback Intro Meeting",
           "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Soka World Youth General Meeting 2026 Video Showing",
+          "room": "Main Auditorium",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
