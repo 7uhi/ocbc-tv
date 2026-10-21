@@ -64,8 +64,11 @@ function expandBannerDates(titleAttr, fallbackDate) {
 
 async function scrapeMonth(page, startdate) {
   await page.goto(embedUrl(startdate), { waitUntil: 'networkidle', timeout: 90000 });
-  // onclick attrs are attached by JS a beat after the elements render
-  await page.waitForSelector('.cal_event[onclick*="showEventByDate"]', { timeout: 45000 });
+  // Calendar layouts can hide the first matching event. We scrape the DOM,
+  // so wait for attachment rather than requiring that event to be visible.
+  await page.waitForSelector('.cal_event[onclick*="showEventByDate"]', {
+    state: 'attached', timeout: 45000,
+  });
   await page.waitForTimeout(1500);
 
   return page.evaluate(() => {
@@ -75,13 +78,13 @@ async function scrapeMonth(page, startdate) {
       if (!m) return;
       const textEl = el.querySelector('.calEventDisplay_text');
       if (!textEl) return;
-      const lineText = (el.closest('.calendar_one_line') || el).innerText || '';
+      const lineText = (el.closest('.calendar_one_line') || el).textContent || '';
       out.push({
         date: m[1],
         id: m[2],
         titleAttr: (textEl.getAttribute('title') || '').replace(/ /g, ' ').trim(),
-        text: (textEl.innerText || '').replace(/\s+/g, ' ').trim(),
-        startTime: (textEl.querySelector('.cal_date_highlight')?.innerText || '').trim(),
+        text: (textEl.textContent || '').replace(/\s+/g, ' ').trim(),
+        startTime: (textEl.querySelector('.cal_date_highlight')?.textContent || '').trim(),
         isBanner: !!el.closest('.cal_display_longevent'),
         isSignup: /Sign Up Now/i.test(lineText),
       });
