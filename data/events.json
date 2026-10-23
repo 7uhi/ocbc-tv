@@ -1,41 +1,8 @@
 {
-  "scrapedAt": "2026-10-23T01:14:54.417Z",
+  "scrapedAt": "2026-10-23T16:25:25.274Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-10-22",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Saddleback Intro Meeting",
-          "room": "Gohonzon Room C",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Soka World Youth General Meeting 2026 Video Showing",
-          "room": "Main Auditorium",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-10-23",
       "events": [
@@ -77,6 +44,13 @@
           "room": "Gohonzon Room D",
           "time": "10a",
           "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Zone",
+          "room": "Conference Room",
+          "time": "10a",
+          "timeRange": "10a-12:30p",
           "allDay": false
         },
         {
@@ -466,6 +440,25 @@
         {
           "title": "South Aliso Viejo Chapter Intro Meeting",
           "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
