@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-23T16:25:25.274Z",
+  "scrapedAt": "2026-10-23T19:38:01.234Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -35,13 +35,6 @@
         {
           "title": "NAV chapter intro meeting",
           "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NIR Chapter Introductory Meeting",
-          "room": "Gohonzon Room D",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
@@ -178,6 +171,13 @@
           "allDay": false
         },
         {
+          "title": "Sir chapter hv",
+          "room": "Gohonzon Room B",
+          "time": "12p",
+          "timeRange": "12p-1p",
+          "allDay": false
+        },
+        {
           "title": "SIR Chapter Sophia Group Meeting",
           "room": "Gohonzon Room C",
           "time": "12p",
@@ -273,6 +273,13 @@
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
+        },
+        {
+          "title": "SIR Chapter Team Meeting",
+          "room": "Conference Room",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         }
       ]
     },
@@ -308,13 +315,6 @@
         {
           "title": "NAV chapter intro meeting",
           "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "NIR Chapter Introductory Meeting",
-          "room": "Gohonzon Room D",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
