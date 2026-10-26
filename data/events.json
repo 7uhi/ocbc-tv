@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-26T18:11:57.081Z",
+  "scrapedAt": "2026-10-26T20:48:27.933Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -116,6 +116,13 @@
           "allDay": true
         },
         {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room D",
+          "time": "9a",
+          "timeRange": "9a-3p",
+          "allDay": false
+        },
+        {
           "title": "Region Youth Weekly Toso",
           "room": "Gohonzon Room A",
           "time": "9a",
@@ -151,13 +158,6 @@
         {
           "title": "Deerfield district planning meeting",
           "room": "Gohonzon Room C",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "Portola Springs District Membercare and Planning Meeting",
-          "room": "Gohonzon Room A",
           "time": "11a",
           "timeRange": "11a-12p",
           "allDay": false
@@ -305,6 +305,13 @@
           "allDay": false
         },
         {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room D",
+          "time": "9a",
+          "timeRange": "9a-3p",
+          "allDay": false
+        },
+        {
           "title": "Region Youth Weekly Toso",
           "room": "Gohonzon Room A",
           "time": "9a",
@@ -319,15 +326,15 @@
           "allDay": false
         },
         {
-          "title": "Ikeda Wisdom Academy",
-          "room": "Gohonzon Room A",
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
         },
         {
-          "title": "NAV chapter intro meeting",
-          "room": "Gohonzon Room C",
+          "title": "North Aliso Viejo Chapter Kings of Soka",
+          "room": "Gohonzon Room B",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
