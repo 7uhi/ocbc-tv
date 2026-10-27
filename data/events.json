@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-27T17:25:27.181Z",
+  "scrapedAt": "2026-10-27T20:18:55.984Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -12,6 +12,13 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        },
+        {
+          "title": "Capistrano intro meeting",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         },
         {
           "title": "Open for Chanting",
@@ -120,6 +127,13 @@
         {
           "title": "NAV chapter intro meeting",
           "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV Chapter Team Meeting",
+          "room": "Gohonzon Room B",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
