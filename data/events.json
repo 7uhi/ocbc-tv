@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-29T17:59:58.951Z",
+  "scrapedAt": "2026-10-29T20:44:17.103Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -99,20 +99,6 @@
           "allDay": false
         },
         {
-          "title": "Goldenrain District Planning Meeting",
-          "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "Goldenrain District Planning Meeting",
-          "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
           "title": "Kosen Rufu Gongyo ( in person only)",
           "room": "Main Auditorium",
           "time": "10a",
@@ -122,6 +108,13 @@
         {
           "title": "Deerfield district planning meeting",
           "room": "Gohonzon Room C",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "Goldenrain District Planning Meeting",
+          "room": "Gohonzon Room B",
           "time": "11a",
           "timeRange": "11a-12p",
           "allDay": false
