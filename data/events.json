@@ -1,41 +1,8 @@
 {
-  "scrapedAt": "2026-11-01T01:53:37.484Z",
+  "scrapedAt": "2026-11-01T17:36:34.122Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-10-31",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room D",
-          "time": "9a",
-          "timeRange": "9a-3p",
-          "allDay": false
-        },
-        {
-          "title": "Region Youth Weekly Toso",
-          "room": "Gohonzon Room A",
-          "time": "9a",
-          "timeRange": "9a-10a",
-          "allDay": false
-        },
-        {
-          "title": "NAV Chapter Team Meeting",
-          "room": "Gohonzon Room B",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-11-01",
       "events": [
@@ -427,6 +394,60 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "events": [
+        {
+          "title": "Home Visit Week/Member Care Meetings",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room D",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Region Youth Weekly Toso",
+          "room": "Gohonzon Room A",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "NAV chapter intro meeting",
+          "room": "Gohonzon Room C",
+          "time": "11a",
+          "timeRange": "11a-12p",
+          "allDay": false
+        },
+        {
+          "title": "LH Chapter Intro to Buddhism",
+          "room": "Gohonzon Room B",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        },
+        {
+          "title": "LH Chapter Intro to Buddhism",
+          "room": "Gohonzon Room B",
+          "time": "2p",
+          "timeRange": "2p-3p",
+          "allDay": false
         }
       ]
     }
