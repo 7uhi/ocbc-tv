@@ -1,55 +1,8 @@
 {
-  "scrapedAt": "2026-11-05T03:12:50.213Z",
+  "scrapedAt": "2026-11-05T19:27:33.111Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-11-04",
-      "events": [
-        {
-          "title": "District Activity Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Canyon Vista Membercare Meeting",
-          "room": "Conference Room",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "El Toro District chanting",
-          "room": "Gohonzon Room D",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Michelson district - Toso",
-          "room": "Gohonzon Room B",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "South Aliso Viejo Chapter Intro Meeting",
-          "room": "Gohonzon Room C",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-11-05",
       "events": [
@@ -465,6 +418,46 @@
         },
         {
           "title": "SIR Chapter Intro to Buddhism",
+          "room": "Gohonzon Room C",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "title": "Discussion Meeting Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "El toro district chanting",
+          "room": "Gohonzon Room D",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Michelson district Toso",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "South Aliso Viejo Chapter Intro Meeting",
           "room": "Gohonzon Room C",
           "time": "7p",
           "timeRange": "7p-8p",
