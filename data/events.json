@@ -1,34 +1,8 @@
 {
-  "scrapedAt": "2026-11-11T02:33:10.215Z",
+  "scrapedAt": "2026-11-11T19:13:30.885Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-11-10",
-      "events": [
-        {
-          "title": "Home Visit Week/Member Care Meetings",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Chanting & HV",
-          "room": "Conference Room",
-          "time": "6:30p",
-          "timeRange": "6:30p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-11-11",
       "events": [
@@ -469,6 +443,25 @@
           "time": null,
           "timeRange": null,
           "allDay": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "events": [
+        {
+          "title": "District Activity Week",
+          "room": "",
+          "time": null,
+          "timeRange": null,
+          "allDay": true
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
         }
       ]
     }
