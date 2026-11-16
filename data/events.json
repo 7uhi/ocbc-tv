@@ -1,62 +1,8 @@
 {
-  "scrapedAt": "2026-11-16T02:35:05.374Z",
+  "scrapedAt": "2026-11-16T21:37:40.044Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-11-15",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        },
-        {
-          "title": "Open for Chanting",
-          "room": "Gohonzon Room D",
-          "time": "9a",
-          "timeRange": "9a-3p",
-          "allDay": false
-        },
-        {
-          "title": "Aliso Viejo District Discussion Meeting",
-          "room": "Gohonzon Room A",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "Deerfield district meeting",
-          "room": "Gohonzon Room C",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "La Paz District Study Meeting",
-          "room": "Gohonzon Room B",
-          "time": "10a",
-          "timeRange": "10a-11a",
-          "allDay": false
-        },
-        {
-          "title": "Michelson district meeting",
-          "room": "Gohonzon Room B",
-          "time": "11a",
-          "timeRange": "11a-12p",
-          "allDay": false
-        },
-        {
-          "title": "LNS Discussion Meeting",
-          "room": "Gohonzon Room A",
-          "time": "2p",
-          "timeRange": "2p-3p",
-          "allDay": false
-        }
-      ]
-    },
     {
       "date": "2026-11-16",
       "events": [
@@ -146,8 +92,22 @@
           "allDay": true
         },
         {
+          "title": "Meet with youth guest",
+          "room": "Gohonzon Room B",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback Intro",
+          "room": "Gohonzon Room C",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -426,6 +386,53 @@
           "room": "Gohonzon Room C",
           "time": "11a",
           "timeRange": "11a-12p",
+          "allDay": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "events": [
+        {
+          "title": "Soka2030 Daimoku at OCBC",
+          "room": "Main Auditorium",
+          "time": "8a",
+          "timeRange": "8a-9a",
+          "allDay": false
+        },
+        {
+          "title": "LH Chapter MD Meeting",
+          "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Open for Chanting",
+          "room": "Gohonzon Room D",
+          "time": "9a",
+          "timeRange": "9a-3p",
+          "allDay": false
+        },
+        {
+          "title": "Soka2030 In person encouragement",
+          "room": "Main Auditorium",
+          "time": "9a",
+          "timeRange": null,
+          "allDay": false
+        },
+        {
+          "title": "NIR Sophia",
+          "room": "Gohonzon Room B",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "SBK Chapter Sophia Group",
+          "room": "Gohonzon Room C",
+          "time": "10a",
+          "timeRange": "10a-11a",
           "allDay": false
         }
       ]
