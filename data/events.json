@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-16T23:54:17.872Z",
+  "scrapedAt": "2026-11-17T04:57:47.273Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -28,6 +28,13 @@
         {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
+          "time": "7p",
+          "timeRange": "7p-8p",
+          "allDay": false
+        },
+        {
+          "title": "Saddleback chapter team meeting",
+          "room": "Conference Room",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
