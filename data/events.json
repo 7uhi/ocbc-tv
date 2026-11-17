@@ -1,20 +1,8 @@
 {
-  "scrapedAt": "2026-11-17T04:57:47.273Z",
+  "scrapedAt": "2026-11-17T20:26:50.432Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
-    {
-      "date": "2026-11-16",
-      "events": [
-        {
-          "title": "Discussion Meeting Week",
-          "room": "",
-          "time": null,
-          "timeRange": null,
-          "allDay": true
-        }
-      ]
-    },
     {
       "date": "2026-11-17",
       "events": [
@@ -75,13 +63,6 @@
         {
           "title": "Open for Chanting",
           "room": "Gohonzon Room A",
-          "time": "7p",
-          "timeRange": "7p-8p",
-          "allDay": false
-        },
-        {
-          "title": "Saddleback chapter team meeting",
-          "room": "Conference Room",
           "time": "7p",
           "timeRange": "7p-8p",
           "allDay": false
@@ -207,6 +188,13 @@
           "allDay": false
         },
         {
+          "title": "Advanced Exam Prep session 3",
+          "room": "Main Auditorium",
+          "time": "1p",
+          "timeRange": "1p-2p",
+          "allDay": false
+        },
+        {
           "title": "Laguna Niguel North Discussion Meeting",
           "room": "Gohonzon Room A",
           "time": "1p",
@@ -235,6 +223,13 @@
         {
           "title": "Aliso Niguel Planning Meeting",
           "room": "Gohonzon Room B",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
+          "title": "Eastwing District Meeting",
+          "room": "Gohonzon Room A",
           "time": "9a",
           "timeRange": "9a-10a",
           "allDay": false
@@ -450,6 +445,10 @@
           "allDay": false
         }
       ]
+    },
+    {
+      "date": "2026-11-30",
+      "events": []
     }
   ]
 }
