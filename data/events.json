@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-17T23:16:57.431Z",
+  "scrapedAt": "2026-11-18T04:06:08.633Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -132,6 +132,13 @@
           "allDay": true
         },
         {
+          "title": "Canyon Vista Dist mtg",
+          "room": "Gohonzon Room C",
+          "time": "9a",
+          "timeRange": "9a-10a",
+          "allDay": false
+        },
+        {
           "title": "Open for Chanting",
           "room": "Gohonzon Room D",
           "time": "9a",
@@ -148,6 +155,13 @@
         {
           "title": "Aliso Niguel November General Meeting",
           "room": "Gohonzon Room A",
+          "time": "10a",
+          "timeRange": "10a-11a",
+          "allDay": false
+        },
+        {
+          "title": "Canyon Vista district meeting 10-11am",
+          "room": "Gohonzon Room C",
           "time": "10a",
           "timeRange": "10a-11a",
           "allDay": false
