@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-20T19:35:43.782Z",
+  "scrapedAt": "2026-11-20T22:26:27.504Z",
   "timezone": "America/Los_Angeles",
   "source": "https://www.keepandshare.com/calendar25/show.php?i=2694020",
   "days": [
@@ -24,13 +24,6 @@
           "time": null,
           "timeRange": null,
           "allDay": true
-        },
-        {
-          "title": "Canyon Vista Dist mtg",
-          "room": "Gohonzon Room C",
-          "time": "9a",
-          "timeRange": "9a-10a",
-          "allDay": false
         },
         {
           "title": "Open for Chanting",
